@@ -1,0 +1,4 @@
+class Http {
+  config() {}
+  createInstance() {}
+}

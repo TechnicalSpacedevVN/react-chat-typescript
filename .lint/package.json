@@ -1,0 +1,10 @@
+{
+	"name": "my-eslint-plugin",
+	"version": "1.0.0",
+	"description": "My ESLint plugin",
+	"main": "index.js",
+	"dependencies": {
+		"antd": "^5.4.5",
+		"eslint": "^8.39.0"
+	}
+}
