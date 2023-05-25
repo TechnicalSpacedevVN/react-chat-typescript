@@ -4,8 +4,9 @@ export default {
 	theme: {
 		extend: {},
 	},
+	darkMode: 'class',
 	plugins: [],
 	corePlugins: {
-		preflight: false,
+		// preflight: false,
 	},
 }

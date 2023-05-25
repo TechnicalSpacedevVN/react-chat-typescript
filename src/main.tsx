@@ -4,6 +4,7 @@ import ReactDOM from 'react-dom/client'
 import { BrowserRouter } from 'react-router-dom'
 import App from './App'
 import './i18n'
+import { ModeProvider } from '@components/ModeProvider'
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
 	// <React.StrictMode>
@@ -23,7 +24,9 @@ ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
 		}}
 	>
 		<BrowserRouter>
-			<App />
+			<ModeProvider>
+				<App />
+			</ModeProvider>
 		</BrowserRouter>
 	</ConfigProvider>,
 	// </React.StrictMode>,
